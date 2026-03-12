@@ -1,0 +1,6 @@
+Version,Bytes/vector,1M vectors (GB),Compression,Recall@10,Quality retained
+768-dim float32 (baseline),3072,3.072,1×,1.0,100%
+256-dim float32,1024,1.024,3×,0.757,75.7%
+128-dim float32,512,0.512,6×,0.647,64.7%
+64-dim float32,256,0.256,12×,0.502,50.2%
+64-dim binary (true 1-bit),8,0.008,384×,0.139,13.9%
